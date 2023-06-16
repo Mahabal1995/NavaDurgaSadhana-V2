@@ -1199,6 +1199,7 @@ p {
   padding-top: 15px;
   padding-bottom: 15px;
   position: relative;
+  margin: 0 30px;
 }
 
 .left-block {
@@ -1494,7 +1495,8 @@ p {
 }
 
 .subscribe-button:hover {
-  background-color: #ac1313;
+  color: #51301d;
+  background-color: #fff;
 }
 
 .top-padding {
@@ -1622,12 +1624,18 @@ p {
 
 }
 
+
+
 .button.dark:hover {
-  color: #fff;
-  background-color: #000;
+  color: #51301d;
+  background-color: #fff;
   border-style: none;
   border-color: #53d7db;
   transform: translate(0, -6px);
+}
+
+.button.brown:hover{
+  background-color: #fc9a00;
 }
 
 .button.dark.center {
@@ -2550,11 +2558,13 @@ p {
   margin-bottom: 20px;
 }
 
-.items-wrapper:hover {
+/* .items-wrapper:hover {
   border-bottom-color: #ac1313;
-}
+} */
 
 .image-wrapper {
+  min-height: 250px;
+  margin: 0 30px;
   position: relative;
   overflow: hidden;
 }
@@ -3003,6 +3013,9 @@ p {
 }
 
 @media screen and (min-width: 1920px) {
+  .hero-section{
+    padding: 0 0 20% 0 ;
+  }
   .page-title.big {
     font-size: 100px;
     line-height: 100px;
