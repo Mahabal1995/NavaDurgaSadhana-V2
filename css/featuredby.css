@@ -49,6 +49,21 @@
     }
   }
 
+  @media only screen and (min-width: 320px) {
+
+    .section.featuredby{
+      padding: 10px 84px 70px 48px
+    }
+
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    img{
+        width: 65%;
+    }
+  
+  }
+
   @media only screen and (max-width: 480px) {
     .grid-item img{
         width: 85%;
@@ -67,3 +82,4 @@
     }
 
   }
+

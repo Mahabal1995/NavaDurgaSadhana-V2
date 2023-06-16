@@ -1521,8 +1521,9 @@ p {
   letter-spacing: 1px;
   background-color: #ff9f07;
   border-radius: 40px;
-  padding-left: 35px;
-  padding-right: 35px;
+  /* padding-left: 35px; */
+  /* padding-right: 35px; */
+  padding: 15px 20px 20px 20px;
   font-family: Hindguntur Regular, sans-serif;
   font-size: 22px;
   transition: all 0.4s;
@@ -1647,7 +1648,7 @@ p {
   outline: 3px #e148c0;
   margin-bottom: 152px;
   margin-right: 0;
-  padding: 20px 40px;
+  padding: 23px 20px 20px 20px;
   font-family: Hindguntur Regular, sans-serif;
   font-size: 22px;
   line-height: 22px;
@@ -1862,7 +1863,7 @@ p {
 }
 
 .history-paragraph {
-  color: #6c6c6c;
+  color: #51301d;
   text-align: left;
   margin-top: 20px;
   line-height: 24px;
@@ -3692,6 +3693,7 @@ p {
 
   .subscribe-button {
     width: 100%;
+    padding: 23px 20px 20px 20px;
   }
 
   .button {
