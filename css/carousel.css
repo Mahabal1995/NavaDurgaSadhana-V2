@@ -142,12 +142,13 @@
 
 .carousel-card .content-review {
   color: #51301d;
-  font-family: "Hind Guntur", Sans-serif;
-  font-size: 14px;
   margin-top: 30px;
   margin-bottom: 30px;
   box-sizing: border-box;
   text-align: left;
+  font-family: Hindguntur Light, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .reviewer .name-reviewer {
@@ -160,6 +161,7 @@
 
 .reviewer .address-reviewer {
   margin-top: 0px;
+  color: #51301d;
 }
 
 .card-container {

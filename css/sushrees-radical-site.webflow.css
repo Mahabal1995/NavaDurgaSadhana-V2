@@ -1804,7 +1804,7 @@ p {
 .paragraph.main {
   color: #51301d;
   font-family: Hindguntur Regular, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
 }
 
@@ -1866,7 +1866,10 @@ p {
   color: #51301d;
   text-align: left;
   margin-top: 20px;
-  line-height: 24px;
+  font-family: Hindguntur Light, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  min-height: 178px;
 }
 
 .about-column {
@@ -2133,7 +2136,9 @@ p {
 .about-pompeo-text {
   width: 75%;
   font-family: Libre Franklin, sans-serif;
+  font-size: 18px;
   line-height: 24px;
+
 }
 
 .about-pompeo-text.center {
