@@ -1,0 +1,88 @@
+@media (max-width: 990px) {
+    .hamburger-menu {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 20px;
+      margin-right: 20px;
+      background: url(../images/TEXTURE.png);
+    }
+  
+    .nav-menu {
+      display: none;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-menu.open {
+      display: block;
+      background: url(../images/TEXTURE.png);
+      margin-top: 20px;
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-link {
+      display: block;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #51301d;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .hamburger-menu {
+      display: none;
+    }
+  
+    .nav-menu {
+      display: block !important;
+    }
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 154px;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  .app-button {
+    width: 20px;
+    height: 30px;
+  }
+
+  .hamburger-menu span{
+    font-family: Hind Guntur,Arial;
+    font-size: 16px;
+    line-height: 16px;
+    color: #51301d;
+    margin-right: 5px;
+  }
+
+  .hamburger-menu img{
+    width: 42%;
+  }
+
+  .nav-menu-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-menu .menu-btn{
+    margin-bottom: 10px;
+  }
+
+  .nav-container{
+    display: flex;
+    justify-content: space-around;
+  }

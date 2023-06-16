@@ -42,13 +42,6 @@
     }
   }
 
-  /* Media query for larger screens */
-  @media (min-width: 769px) {
-    .grid-container {
-      grid-template-columns: repeat(6, 1fr);
-    }
-  }
-
   @media only screen and (min-width: 320px) {
 
     .section.featuredby{
@@ -58,10 +51,22 @@
     .grid-container {
       grid-template-columns: repeat(2, 1fr);
     }
-    img{
+    .grid-item img{
         width: 65%;
     }
   
+  }
+
+  /* Media query for larger screens */
+  @media (min-width: 769px) {
+    .grid-container {
+      grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .section.featuredby{
+      padding: 10px 84px 70px 128px
+    }
   }
 
   @media only screen and (max-width: 480px) {
