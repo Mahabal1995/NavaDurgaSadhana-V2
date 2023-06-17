@@ -1017,6 +1017,10 @@
   display: none;
 }
 
+.vh-98{
+  height: 98vh;
+}
+
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
     flex-direction: column;
@@ -1275,6 +1279,7 @@ p {
   padding-bottom: 0;
   line-height: 24px;
   position: relative;
+  margin-top: 1px solid #51301d;
 }
 
 .section.newslatter {
